@@ -1,0 +1,3 @@
+#include "../widgets/s_global.h"
+#include "../widgets/slistwidget/qslistwidget.h"
+#include "../widgets/seledit/qsellineedit.h"

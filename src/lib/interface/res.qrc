@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="exec">images/exec.png</file>
+        <file alias="home">images/home.png</file>
+        <file alias="lock">images/lock.png</file>
+        <file alias="peoples">images/peoples.png</file>
+        <file alias="services">images/Service Manager.png</file>
+        <file alias="user">images/user.png</file>
+        <file alias="users">images/users.png</file>
+    </qresource>
+</RCC>

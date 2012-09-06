@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Конфигурация SYSTEM ''>
+<configuration>
+    <info>
+        <name>Новая конфигурация</name>
+        <lastid>157</lastid>
+        <author>NetWorm</author>
+        <date>2012-07-01</date>
+    </info>
+    <interface>
+        <tabs type="QTabWidget" name="TabWidget">
+            <tab title="Основной" image="home" type="QWidget" id="1" name="tab1">
+                <left_menu width="150" type="QScrollArea" name="menu1">
+                    <group title="Основное" type="QGroupBox" name="general">
+                        <value title="Опция 1" type="QAction" id="101" name="option1">
+                            <description id="724"/>
+                            <menutext id="725"/>
+                            <key id="726"/>
+                            <comaction>1336</comaction>
+                        </value>
+                        <value title="Опция 1" type="QAction" id="102" name="option2">
+                            <description id="724"/>
+                            <menutext id="725"/>
+                            <key id="726"/>
+                            <comaction>1337</comaction>
+                        </value>
+                        <value title="Опция 1" type="QAction" id="103" name="option3"/>
+                    </group>
+                    <group title="Отчеты4" type="QGroupBox" name="general4">
+                        <value title="Опция 1" type="QAction" id="104" name="option5"/>
+                    </group>
+                    <group title="Отчеты5" type="QGroupBox" name="general5">
+                        <value title="Опция 1" type="QAction" id="105" name="option1"/>
+                    </group>
+                </left_menu>
+                <panel width="500" type="QStackedWidget" name="panel1"/>
+            </tab>
+            <tab title="Сотрудники" image="users" type="QWidget" id="2" name="tab2">
+                <panel type="QStackedWidget" name="panel2"/>
+            </tab>
+            <tab title="Клиенты" image="peoples" type="QWidget" id="3" name="tab3">
+                <left_menu width="150" type="QScrollArea" name="menu2">
+                    <group title="Основное" type="QGroupBox" name="general">
+                        <value title="Опция 1" type="QAction" id="106" name="option1"/>
+                    </group>
+                </left_menu>
+            </tab>
+            <tab title="Администрирование" image="services" type="QWidget" id="4" name="tab4">
+                <left_menu width="150" type="QScrollArea" name="menu2">
+                    <group title="Основное" type="QGroupBox" name="general">
+                        <value title="Опция 1" type="QAction" id="107" name="option1"/>
+                    </group>
+                </left_menu>
+            </tab>
+        </tabs>
+    </interface>
+    <metadata>
+        <globals/>
+        <spravochniki>
+            <spravochnik id="101" name="Сотрудники">
+                <element>
+                    <field width="10" key="1" visible="0" type="S 50 0 *" id="108" name="Наименование"/>
+                    <field width="10" key="2" visible="0" type="S 10 0 *" id="109" name="Код"/>
+                    <field width="10" type="S 229 0 *" id="103" name="Фамилия"/>
+                    <field width="10" type="S 254 0 *" id="104" name="Имя"/>
+                    <field width="10" type="S 250 2 *" id="112" name="Отчество"/>
+                    <field width="10" type="D 10 0 *" id="113" name="Дата рождения"/>
+                </element>
+                <forms>
+                    <form readonly="0" type="2" id="121" name="Новая Форма">
+                        <description id="122"/>
+                        <sourcecode id="123"/>
+                        <defaultmod id="124"/>
+                        <dialogform id="125"/>
+                    </form>
+                    <form readonly="0" type="2" id="126" name="Новая Форма">
+                        <description id="127"/>
+                        <sourcecode id="128"/>
+                        <defaultmod id="129"/>
+                        <dialogform id="130"/>
+                    </form>
+                </forms>
+            </spravochnik>
+            <spravochnik id="118" name="Номенклатура">
+                <element/>
+                <forms>
+                    <form readonly="0" type="2" id="131" name="Новая Форма">
+                        <description id="132"/>
+                        <sourcecode id="133"/>
+                        <defaultmod id="134"/>
+                        <dialogform id="135"/>
+                    </form>
+                    <form readonly="0" type="2" id="136" name="Новая Форма">
+                        <description id="137"/>
+                        <sourcecode id="138"/>
+                        <defaultmod id="139"/>
+                        <dialogform id="140"/>
+                    </form>
+                </forms>
+            </spravochnik>
+            <spravochnik id="142" name="Контрагент">
+                <element>
+                    <field width="10" type="S 10 2 *" id="143" name="Адрес регистрации"/>
+                </element>
+                <forms/>
+            </spravochnik>
+            <spravochnik id="150" name="Новый справочник">
+                <element>
+                    <field width="10" key="2" visible="0" type="S 10 0 *" id="151" name="Код"/>
+                    <field width="50" key="1" visible="0" type="S 50 0 *" id="152" name="Наименование"/>
+                </element>
+                <forms/>
+            </spravochnik>
+        </spravochniki>
+        <documents>
+            <document id="153" name="Новый документ">
+                <element>
+                    <field width="10" key="2" visible="0" type="S 10 0 *" id="154" name="Номер"/>
+                    <field width="10" key="1" visible="0" type="D 0 0 *" id="155" name="Дата"/>
+                    <field width="10" type="L 101 0 *" id="156" name="Менеджер"/>
+                    <field width="10" type="L 142 0 *" id="157" name="Контрагент"/>
+                </element>
+                <tables>
+					<table>
+						<field width="10" type="L 101 0 *" id="156" name="Менеджер"/>
+						<field width="10" type="L 142 0 *" id="157" name="Контрагент"/>
+					</table>
+				</tables>
+                <forms/>
+            </document>
+        </documents>
+        <journals/>
+        <registers>
+            <iregisters/>
+            <aregisters/>
+        </registers>
+    </metadata>
+    <actions>
+        <action type="0" id="1336" name="Открыть каталог товаров">
+            <description id="935"/>
+            <argument id="936"/>
+            <actiontype id="937">0</actiontype>
+            <objectid id="101">129</objectid>
+            <formid id="939">521</formid>
+            <active_picture length="401">89504E470D0A1A0A0000000D4948445200000016000000160806000000C4B46C3B000000097048597300000B1200000B1201D2DD7EFC0000014349444154789CB595318E842014867F36DBE801986B48EB292C2CF70A24DC60B33730F122B6766332B195030C27B0A7650A170505C7995D5F620246BEF7F1F029D1DAE08CF838850AE0F3DD8579CEBCADF6FD40FE0CCE736686417AF71863C68547C16BA3A3092D9C840E2F6C94A1AAE4E6593784C8E6926C8CF74C85C8A2D075D26029EABAC6EDB6CC39E7D8DB4128E10C764D39E75133378458E0D7EBC2E9FB8178C66DDB7A0B29BD04815D07148544D3C44BF3528374DD74B9614D9B26435114CFC1E3386EA07B2184F0E6C1C3A3F4024AE3306B694DD7D00DD8D674CFCE8502D31BA494FA4DD240CAE93089D6E6AD2EB35000504AA1AA2A4829A1B5F11BC4EDF32481B116B128CB721EAFA11E1800D2F4E790F9FDFE358F39E71BA8074E121863BE3DC033EB18D40333C68EC87A118302CED72D4DC9CB0718837AE0FF8ED3FE790FB0A6A70FAB73B2680000000049454E44AE426082</active_picture>
+        </action>
+        <action type="0" id="1337" name="Открыть каталог товаров">
+            <description id="935"/>
+            <argument id="936"/>
+            <actiontype id="937">0</actiontype>
+            <objectid id="938">500</objectid>
+            <formid id="939">621</formid>
+            <active_picture length="401">89504E470D0A1A0A0000000D4948445200000016000000160806000000C4B46C3B000000097048597300000B1200000B1201D2DD7EFC0000014349444154789CB595318E842014867F36DBE801986B48EB292C2CF70A24DC60B33730F122B6766332B195030C27B0A7650A170505C7995D5F620246BEF7F1F029D1DAE08CF838850AE0F3DD8579CEBCADF6FD40FE0CCE736686417AF71863C68547C16BA3A3092D9C840E2F6C94A1AAE4E6593784C8E6926C8CF74C85C8A2D075D26029EABAC6EDB6CC39E7D8DB4128E10C764D39E75133378458E0D7EBC2E9FB8178C66DDB7A0B29BD04815D07148544D3C44BF3528374DD74B9614D9B26435114CFC1E3386EA07B2184F0E6C1C3A3F4024AE3306B694DD7D00DD8D674CFCE8502D31BA494FA4DD240CAE93089D6E6AD2EB35000504AA1AA2A4829A1B5F11BC4EDF32481B116B128CB721EAFA11E1800D2F4E790F9FDFE358F39E71BA8074E121863BE3DC033EB18D40333C68EC87A118302CED72D4DC9CB0718837AE0FF8ED3FE790FB0A6A70FAB73B2680000000049454E44AE426082</active_picture>
+        </action>
+    </actions>
+</configuration>

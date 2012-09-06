@@ -1,0 +1,8 @@
+#include "../lib/metadata/smetafield.h"
+#include "../lib/metadata/smetaform.h"
+#include "../lib/metadata/smetaobject.h"
+#include "../lib/metadata/smetaspravochnik.h"
+#include "../lib/metadata/smetaspravochnik.h"
+//#include "smetafield.h"
+//#include "smetafield.h"
+//#include "smetafield.h"
