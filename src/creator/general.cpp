@@ -73,6 +73,7 @@ void loadTables(xmlItem xItem, sTreeWidgetItem *parent){
     parent->addChild(el);
 
     p_Fields = p_xml->findChild(p_xml->findChild(xItem,md_tables),md_table);
+    p_Fields = p_xml->findChild(p_Fields,md_field);
 
     while(!p_Fields.isNull()){
         QString name =  p_xml->attr(p_Fields,mda_name);

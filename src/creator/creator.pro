@@ -6,6 +6,8 @@
 
 QT       += core gui xml script scripttools
 
+CONFIG += sWidgets
+
 INCLUDEPATH += ../lib
 INCLUDEPATH += ../include
 INCLUDEPATH += ../widgets

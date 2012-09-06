@@ -121,11 +121,11 @@
                     <field width="10" type="L 142 0 *" id="157" name="Контрагент"/>
                 </element>
                 <tables>
-					<table>
-						<field width="10" type="L 101 0 *" id="156" name="Менеджер"/>
-						<field width="10" type="L 142 0 *" id="157" name="Контрагент"/>
-					</table>
-				</tables>
+                    <table>
+                        <field width="10" type="L 101 0 *" id="156" name="Менеджер"/>
+                        <field width="10" type="L 142 0 *" id="157" name="Контрагент"/>
+                    </table>
+                </tables>
                 <forms/>
             </document>
         </documents>

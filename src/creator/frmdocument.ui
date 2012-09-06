@@ -23,7 +23,7 @@
       <enum>QTabWidget::West</enum>
      </property>
      <property name="currentIndex">
-      <number>0</number>
+      <number>1</number>
      </property>
      <property name="elideMode">
       <enum>Qt::ElideNone</enum>
@@ -172,7 +172,7 @@
              <normaloff>:/creator_res/del</normaloff>:/creator_res/del</iconset>
            </property>
            <property name="autoRaise">
-            <bool>false</bool>
+            <bool>true</bool>
            </property>
            <property name="arrowType">
             <enum>Qt::NoArrow</enum>
@@ -263,7 +263,7 @@
              <normaloff>:/creator_res/del</normaloff>:/creator_res/del</iconset>
            </property>
            <property name="autoRaise">
-            <bool>false</bool>
+            <bool>true</bool>
            </property>
            <property name="arrowType">
             <enum>Qt::NoArrow</enum>
