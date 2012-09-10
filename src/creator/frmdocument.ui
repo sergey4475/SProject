@@ -194,7 +194,7 @@
          </item>
         </layout>
        </widget>
-       <widget class="QSListWidget" name="listWidget">
+       <widget class="QSListWidget" name="lstFields">
         <property name="geometry">
          <rect>
           <x>10</x>
@@ -285,7 +285,7 @@
          </item>
         </layout>
        </widget>
-       <widget class="QSListWidget" name="qSListWidget">
+       <widget class="QSListWidget" name="lstTblFields">
         <property name="geometry">
          <rect>
           <x>10</x>

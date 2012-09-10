@@ -23,6 +23,10 @@ private:
 //    xmlItem xmlCurrentItem;
     xmlItem general, element, field;
     xmlItem data;
+    void EditElement();
+
+public slots:
+    void DoubleClickItem(QModelIndex index);
 
 };
 

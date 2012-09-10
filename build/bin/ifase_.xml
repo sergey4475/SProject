@@ -122,8 +122,8 @@
                 </element>
                 <tables>
                     <table>
-                        <field width="10" type="L 101 0 *" id="156" name="Менеджер"/>
-                        <field width="10" type="L 142 0 *" id="157" name="Контрагент"/>
+                        <field width="10" type="L 118 0 *" id="156" name="Товар"/>
+                        <field width="10" type="N 10 2 *" id="157" name="Количество"/>
                     </table>
                 </tables>
                 <forms/>

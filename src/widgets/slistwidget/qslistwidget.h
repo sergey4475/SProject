@@ -11,9 +11,9 @@ class Q_S_EXPORT sListWidgetItem : public QListWidgetItem
 public:
     sListWidgetItem(const QString &text, xmlItem xItem);
     sListWidgetItem(const QIcon &icon, const QString &text,xmlItem xItem);
+    xmlItem GetXmlItem();
 private:
     xmlItem xmlObj;
-    xmlItem GetXmlItem();
 };
 
 class Q_S_EXPORT QSListWidget : public QListWidget
@@ -28,6 +28,7 @@ public:
 
     QSListWidget(QWidget *parent = 0);
     sListWidgetItem* CurrentItem();
+    sListWidgetItem *itemFromIndex_(const QModelIndex &index) const;
     void LoadObject(xmlItem obj,type_element type = Fields);
 
 private:

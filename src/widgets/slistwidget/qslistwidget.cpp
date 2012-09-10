@@ -26,6 +26,10 @@ sListWidgetItem* QSListWidget::CurrentItem(){
     return (sListWidgetItem *) this->currentItem();
 }
 
+sListWidgetItem* QSListWidget::itemFromIndex_(const QModelIndex &index) const{
+    return (sListWidgetItem *) this->itemFromIndex(index);
+}
+
 void QSListWidget::LoadObject(xmlItem obj, type_element type){
     QString nField, nVisible;
     xmlItem element;
