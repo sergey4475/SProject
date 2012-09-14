@@ -11,4 +11,5 @@
 #}
 TEMPLATE = subdirs
 SUBDIRS += interface \
-           core
+           core \
+    db_lib
