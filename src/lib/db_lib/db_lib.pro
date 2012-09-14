@@ -20,11 +20,14 @@ DEFINES += DB_LIB_LIBRARY
 DESTDIR = ../../../build/bin/lib
 
 SOURCES += db_lib.cpp \
-    db_drivers.cpp
+    db_drivers.cpp \
+    db_lib_global.cpp \
+    db_driver_mysql.cpp
 
 HEADERS += db_lib.h\
         db_lib_global.h \
-    db_drivers.h
+    db_drivers.h \
+    db_driver_mysql.h
 
 symbian {
     MMP_RULES += EXPORTUNFROZEN
