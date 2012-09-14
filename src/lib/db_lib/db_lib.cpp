@@ -12,11 +12,11 @@ bool db_lib::open(const QString &dbname,
                   const QString &dbhost,
                   int dbport){
     if ( !p_db || !driver() ) return false;
-    db()->setDatabaseName( dbname );
-    db()->setUserName( dbuser );
-    db()->setPassword( dbpass );
-    db()->setHostName( dbhost );
-    if ( dbport ) db()->setPort( dbport );
+    p_db->setDatabaseName( dbname );
+    p_db->setUserName( dbuser );
+    p_db->setPassword( dbpass );
+    p_db->setHostName( dbhost );
+    if ( dbport ) p_db->setPort( dbport );
     return open();
 
 
